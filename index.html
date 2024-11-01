@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>青叶的 Todo List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="background.jpg" alt="" style="position: fixed;width: 100vh;z-index: -2;">
+   <!-- src是图片位置，样式是；固定位置+高度占浏览器的百分之100，层级是-2相当于最下层 -->
+  <div class="card">
+    <h1>我的待办事项</h1>
+    <ul id="todo-list">
+      <!-- 动态生成的任务项 -->
+    </ul>
+    <div class="input-group">
+      <input type="text" id="task-input" placeholder="请输入新任务">
+      <button id="add-button" class="button">添加</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
